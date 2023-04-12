@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Tix</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+</head>
+
+<body>
+    <div class="container-menu-desktop fix-menu-desktop">
+        <div class="wrap-menu-desktop">
+            <nav class="limiter-menu-desktop container">
+                <a href="index.html" class="logo"><img src="assets/logo.png"></a>
+                <div class="menu-desktop">
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        <li><a href="konfirmasi.html">Konfirmasi</a></li>
+                    </ul>
+                </div>
+                <form class="serach d-flex" role="search">
+                    <input class="search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="box2">
+            <div class="row">
+                <h4 class="fw-bold">Konfirmasi Pembayaran Tiket</h4>
+            </div>
+            
+            <div class="konfirmasitiket">
+                <div>
+                    <div>
+                        <div>
+                            <p class="fw-bold">Nama :</p>
+                            <input class="nama" type="text" name="nama" id="nama" placeholder="Masukkan Nama Pemesan" style="width: 100%;">
+                        </div>
+                        <div>
+                            <p class="fw-bold" style="padding-top: 20px;">Jumlah :</p>
+                            <input class="jumlah" type="number" name="jumlah" id="jumlah" placeholder="Masukkan Jumlah Bayar" style="width: 100%;">
+                        </div>
+                        <div>
+                            <p class="fw-bold" style="padding-top: 20px;">Nama Pemilik Bank :</p>
+                            <input class="pemilik_bank" type="text" name="pemilik_bank" id="pemilik_bank" placeholder="Masukkan Nama Pemilik Bank" style="width: 100%;">
+                        </div>
+                        <div>
+                            <p class="fw-bold" style="padding-top: 20px;">Media Pembayaran :</p>
+                            <input class="media_pembayaran" type="text" name="media_pembayaran" id="media_pembayaran" placeholder="Masukkan Media Pembayaran" style="width: 100%;">
+                        </div>
+                        <div>
+                            <p class="fw-bold" style="padding-top: 20px;">Unggah Bukti Pembayaran :</p>
+                            <input class="bukti_pembayaran" type="file" name="bukti_pembayaran" id="bukti_pembayaran" placeholder="File bukti pembayaran" style="width: 100%;">
+                        </div>									
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-dark">
+                Konfirmasi
+            </button>
+        </div>
+    </div>
+
+    <footer style="text-align: center;">
+        <p style="background-color: rgb(179, 123, 78);">Copyright &copy; 2023 Gatot Ifal.</p>
+    </footer>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+.wrap-menu-desktop {
+    position: fixed;
+    z-index: 1100;
+    background-color: rgb(179, 123, 78);
+    width: 100%;
+    height: 84px;
+    left: 0px; 
+}
+.limiter-menu-desktop{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.limiter-menu-desktop > form{
+    margin-left: 57%;
+}
+.main-menu{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.main-menu > li {
+    display: block;
+    position: relative;
+    padding: 20px 10px 20px 0px;
+    margin: 0px 4px 0px 14px;
+}
+.main-menu > li > a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    color: #333;
+    padding: 5px 0px;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+.logo {
+    float: left;
+    display: flex;
+    height: 75%;
+    width: 16%;
+}
+.carousel-indicators {
+    top: auto;
+}
+.carousel-inner{
+    width: auto;
+    padding-top: 60px;
+}
+.portofolio{
+    text-align: center;
+}
+.card{
+    height: max-content;
+}
+.card-body{
+    text-align: center;
+}
+.more{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(179, 123, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 41px;
+    border-radius: 20px;
+}
+
+/*Event*/
+.header{
+    padding-top: 6%;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: x-large;
+}
+.row{
+    position: relative;
+    height: fit-content;
+    padding: 15px;
+}
+.card-row{
+    width: 20%;
+}
+
+/*Konfirmasi*/
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2%;
+}
+.box2{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 50px;
+    border: 1px solid grey;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box2 > button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.konfirmasitiket{
+    padding-left: 15px;
+}
+
+/*Detai Event*/
+.pemesan > button{
+    padding-left: 16%;
+    padding-right: 16%;
+}
